@@ -96,7 +96,7 @@ fig3 = px.scatter_geo(success_attacks,
                      hover_data='iyear',
                      projection="natural earth", 
                      color='region_txt',
-                     title='Success Attacks')
+                     title='Successful Attacks')
 
 fig3.update_geos(showcoastlines=True, coastlinecolor="Black", showland=True, landcolor="lightGrey", showcountries=True, countrycolor="Black")
 
